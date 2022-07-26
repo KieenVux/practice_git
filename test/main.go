@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.println("This is main file")
+func main() {
+	var a = "file main.go"
+	fmt.Printf("This is: %s", a)
 }
